@@ -35,11 +35,22 @@ body
     font-weight: bold;
     margin: 10px;
 }
+
+.colorchange{
+	animation: colorchange 3s infinite;
+}
+@keyframes colorchange
+{
+	0%{color:white;}	
+    100%{color: #1ab198 }
+}
+    
 .user-box p
 {
     color: #fff;
     margin: 2px;
 }
+
 .scroll-btn {
     bottom: 30px;
     position: absolute;
@@ -201,3 +212,118 @@ body
     height: 20px;
     z-index: 1;
 }
+
+/*--------------Work Sample----------------*/
+
+.sample
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.sample h1 
+{
+    margin-bottom: 15px;
+
+}
+
+.samples-box
+{
+    background: #f9f9f9;
+    padding: 30px;
+    margin-top: 30px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    
+}
+
+.samples-box 
+{
+    margin: 0 10px;
+    font-size: 17px;
+}
+.samples-box p {
+    font-size: 15px;
+    margin-top: 20px;
+    color: 777;
+}
+
+.samples-box:hover 
+{
+    background: #303030;
+    padding: 10px;
+    color: #1ab198;
+    margin-top: 10px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    transition: 1s;
+
+
+}
+
+.samples-box:hover p 
+{
+    color: #fff;
+}
+
+.contact {
+    margin-top: 100 px;
+    background-color: #f9f9f9;
+    padding: 50px;
+    text-transform: uppercase;
+    transition: all 4% ease-in-out;
+}
+
+.contact h1 {
+    font-size: 32px;
+    line-height: 10px;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    font-size: 16px;
+    text-align: center;
+}
+
+form {
+    margin-top: 30px;
+    transition: all 4% ease-in-out;
+    margin-left: 25%;
+
+}
+
+.contact-form .form-control {
+    width: 600px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    color: #1ab198;
+    font-size: 18px;
+    margin-bottom: 50px;
+
+}
+
+input {
+    height: 45px;
+}
+
+.contact-form .submit {
+    background: #303030;
+    border-color: transparent;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    height:50px;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.contact-form .submit:hover {
+    background-color: #1ab198;
+    cursor: pointer;
+}
+
